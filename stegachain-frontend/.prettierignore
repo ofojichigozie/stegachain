@@ -1,0 +1,5 @@
+node_modules
+dist
+src/wasm/stegachain_engine.js
+src/wasm/stegachain_engine_bg.wasm.d.ts
+src/wasm/stegachain_engine.d.ts

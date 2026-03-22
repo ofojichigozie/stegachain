@@ -1,0 +1,22 @@
+# ─── Hardhat build output ────────────────────────────────────────────────────────
+node_modules/
+artifacts/
+cache/
+dist/
+typechain-types/
+
+# ─── Environment ──────────────────────────────────────────────────────────────────
+# Never commit deployer keys or API keys.
+.env
+.env.*
+!.env.example
+
+# ─── OS artefacts ────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─── Editor / IDE ────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo

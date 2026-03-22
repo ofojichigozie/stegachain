@@ -1,0 +1,23 @@
+{
+  "name": "stegachain-smart-contract",
+  "version": "1.0.0",
+  "description": "StegaChain EVM smart contract — on-chain hash registry",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:local": "hardhat run scripts/deploy.ts --network localhost",
+    "deploy:bsctestnet": "hardhat run scripts/deploy.ts --network bsctestnet",
+    "node": "hardhat node",
+    "clean": "hardhat clean"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@types/node": "^22.0.0",
+    "hardhat": "^2.22.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.0"
+  }
+}

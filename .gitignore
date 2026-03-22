@@ -1,0 +1,25 @@
+# ─── Local-only folders ───────────────────────────────────────────────────────
+# Academic documents and project briefs are kept local and never published.
+stegachain-paperwork/
+__project-docs__/
+
+# ─── OS artefacts ─────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+
+# ─── Editor / IDE ─────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*.suo
+*.user
+
+# ─── Environment files ────────────────────────────────────────────────────────
+# Never commit secrets. Copy .env.example and fill in locally.
+.env
+.env.*
+!.env.example
