@@ -29,6 +29,8 @@ Maximum payload capacity for a `W × H` image:
 capacity_bytes = floor((W × H × 3 − 32) / 8)
 ```
 
+> **PNG only** — the embed/extract functions require lossless PNG input. Lossy formats (e.g. JPEG) would destroy the embedded payload.
+
 ---
 
 ## Prerequisites

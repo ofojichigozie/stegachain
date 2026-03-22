@@ -1,8 +1,8 @@
 # StegaChain
 
-StegaChain is a privacy-preserving, blockchain-anchored steganography system. A sender encrypts a secret message with AES-256-GCM, hides the ciphertext inside a cover image using LSB steganography, and registers the SHA-256 hash of the resulting stego-image on an EVM-compatible blockchain. A receiver can independently verify integrity and authenticity without trusting any central server.
+StegaChain is a **secure data transmission framework** that combines steganography and blockchain to protect secret communications. A sender encrypts a secret message with AES-256-GCM, conceals the ciphertext inside a PNG cover image using LSB steganography, and registers the SHA-256 hash of the resulting stego-image on an EVM-compatible blockchain. A receiver can independently extract, decrypt, and verify the message's integrity and provenance without trusting any central server.
 
-All cryptography and steganography runs entirely in the browser via **WebAssembly** — no plaintext ever leaves the client.
+All cryptography and steganography runs entirely in the browser via **WebAssembly** — no secret material ever leaves the client.
 
 ---
 

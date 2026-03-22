@@ -2,6 +2,8 @@
 
 React + TypeScript single-page application for StegaChain. Provides a browser-based **Sender** flow (encrypt → embed → register on-chain) and **Receiver** flow (verify → extract → decrypt), with all cryptography and steganography running locally via WebAssembly.
 
+> **Client-side only** — no secret material (plaintext, keys, or ciphertext) ever leaves the browser. The smart contract only receives a SHA-256 hash of the stego-image.
+
 ---
 
 ## Tech Stack
